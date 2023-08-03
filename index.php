@@ -31,8 +31,20 @@
 
 <!----===HEADER SECTION------------------------------------------------------------------------------------------------>
 
-        <header>
-
-        </header>
+    <header>
+        <div class="header-navbar">
+            <div class="logo">
+                <a href="#"><img src="Gallery/Logo2.jpg" alt=""></a>
+            </div>
+                    <nav>
+                        <li><a href="">home</a></li>
+                        <li><a href="">about us</a></li>
+                        <li><a href="">menu</a></li>
+                        <li><a href="">blog</a></li>
+                        <li><a href="">booking</a></li>
+                        <li><a href="">contact us</a></li>
+                    </nav>
+        </div>
+    </header>
 </body>
 </html>
