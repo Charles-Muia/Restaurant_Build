@@ -16,11 +16,12 @@
 
 <!--===Favicon Icon---------------------------------------------------------------------------------------------------->
 
-    <link rel="icon" href="Gallery/Logo2.jpg">
+    <link rel="icon" href="Gallery/Logo_2.jpg">
 
 <!--===CSS Style Sheets------------------------------------------------------------------------------------------------>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
 
 <!--===CDN------------------------------------------------------------------------------------------------------------->
 
@@ -32,19 +33,21 @@
 <!----===HEADER SECTION------------------------------------------------------------------------------------------------>
 
     <header>
-        <div class="header-navbar">
-            <div class="logo">
-                <a href="#"><img src="Gallery/Logo2.jpg" alt=""></a>
-            </div>
+            <div class="container">
+                <div class="header-navbar">
+                    <div class="logo">
+                        <a href="#"><img src="Gallery/Logo_2.jpg" alt=""></a>
+                    </div>
                     <nav>
-                        <li><a href="">home</a></li>
-                        <li><a href="">about us</a></li>
-                        <li><a href="">menu</a></li>
-                        <li><a href="">blog</a></li>
-                        <li><a href="">booking</a></li>
-                        <li><a href="">contact us</a></li>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">menu</a></li>
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">booking</a></li>
+                        <li><a href="#">contact</a></li>
                     </nav>
-        </div>
+                </div>
+            </div>
     </header>
 </body>
 </html>

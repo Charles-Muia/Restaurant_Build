@@ -4,13 +4,17 @@
         * {
         /*font-family: 'Poppins', sans-serif;*/
         /*font-family: 'Righteous', cursive;*/
-        /*font-family: 'Ubuntu', sans-serif;*/
+        font-family: 'Ubuntu', sans-serif;
         /*font-family: 'Jost', sans-serif;*/
-         box-sizing:border-box;
+         box-sizing: border-box;
+         margin: 0;
+         padding: 0;
         }
 
     :root {
         --bg-color: #ffffff;
+        --bg-color2: rgba(0,0,0,0.6);
+        --bg-color3: #fefbd8;
         --text-color: #000000;
         --second-color: #a09dab;
         --third-color: #ff4500;
@@ -26,4 +30,61 @@
         --Righteous-font: 'Righteous', cursive;
         --ubuntu-font: 'Ubuntu', sans-serif;
         --Jost-font: 'Jost', sans-serif;
+        --box-shadow: 10px 10px 5px rgba(0,0,0,.3);
     }
+
+/*===HEADER CSS-------------------------------------------------------------------------------------------------------*/
+
+    .container {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 0 80px;
+    }
+
+    header {
+        width: 100%;
+        position: fixed;
+        padding: 1.5rem 0;
+        font-family: var(--ubuntu-font);
+    }
+
+    .header-navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-navbar .logo img {
+        display: block;
+        object-fit: cover;
+        width: 30%;
+    }
+
+    .header-navbar nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header-navbar nav li {
+        list-style: none;
+        text-decoration: none;
+        margin: 0 1rem;
+    }
+
+    .header-navbar nav li a {
+        font-size: 1rem;
+        font-weight: 500;
+        list-style: none;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 1rem;
+        color: var(--third-color);
+        position: relative;
+    }
+
+    .header-navbar nav li a:hover {
+        background: var(--third-color);
+        color: var(--text-color);
+    }
+
