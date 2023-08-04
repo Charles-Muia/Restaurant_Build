@@ -44,7 +44,7 @@
 
     header {
         width: 100%;
-        background: var(--bg-color2);
+        /*background: var(--bg-color2);*/
         position: fixed;
         padding: 1.5rem 0;
     }
@@ -73,7 +73,7 @@
 
     .header-navbar nav li a {
         font-size: 1.2rem;
-        color: var(--bg-color);
+        color: var(--bg-color2);
         text-transform: uppercase;
         text-decoration: none;
     }
