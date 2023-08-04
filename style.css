@@ -35,56 +35,8 @@
 
 /*===HEADER CSS-------------------------------------------------------------------------------------------------------*/
 
-    .container {
-        max-width: 1440px;
-        margin: 0 auto;
-        padding: 0 80px;
-    }
 
-    header {
-        width: 100%;
-        position: fixed;
-        padding: 1.5rem 0;
-        font-family: var(--ubuntu-font);
-    }
 
-    .header-navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+/*===HERO CSS---------------------------------------------------------------------------------------------------------*/
 
-    .header-navbar .logo img {
-        display: block;
-        object-fit: cover;
-        width: 30%;
-    }
-
-    .header-navbar nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .header-navbar nav li {
-        list-style: none;
-        text-decoration: none;
-        margin: 0 1rem;
-    }
-
-    .header-navbar nav li a {
-        font-size: 1rem;
-        font-weight: 500;
-        list-style: none;
-        text-decoration: none;
-        text-transform: uppercase;
-        padding: 1rem;
-        color: var(--third-color);
-        position: relative;
-    }
-
-    .header-navbar nav li a:hover {
-        background: var(--third-color);
-        color: var(--text-color);
-    }
 
