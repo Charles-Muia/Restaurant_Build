@@ -21,6 +21,7 @@
         --4th-color: #4b4b4b;
         --5th-color: #1b1b1b1b;
         --main-color: #f75023;
+        --red-color: #800;
         --big-font:5rem;
         --h1-font:3.5rem;
         --h2-font:3rem;
@@ -35,7 +36,51 @@
 
 /*===HEADER CSS-------------------------------------------------------------------------------------------------------*/
 
+    .container {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 0 80px;
+    }
 
+    header {
+        width: 100%;
+        background: var(--bg-color2);
+        position: fixed;
+        padding: 1.5rem 0;
+    }
+
+    .header-navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-navbar .logo img {
+        width: 30%;
+        display: block;
+        object-fit: cover;
+    }
+
+    .header-navbar nav {
+        display: flex;
+        align-items: center;
+    }
+
+    .header-navbar nav li {
+        list-style: none;
+        margin: 0 1rem;
+    }
+
+    .header-navbar nav li a {
+        font-size: 1.2rem;
+        color: var(--bg-color);
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    .header-navbar nav li a:hover {
+        color: var(--main-color);
+    }
 
 /*===HERO CSS---------------------------------------------------------------------------------------------------------*/
 

@@ -32,7 +32,23 @@
 
 <!----===HEADER SECTION------------------------------------------------------------------------------------------------>
 
-
+        <header>
+            <div class="container">
+                <div class="header-navbar">
+                    <div class="logo">
+                        <a href="#"><img src="Gallery/Resized_lg_3.png" alt=""></a>
+                    </div>
+                        <nav>
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">menu</a></li>
+                            <li><a href="#">booking</a></li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="#">contact us</a></li>
+                        </nav>
+                </div>
+            </div>
+        </header>
 
 <!----===HERO SECTION-------------------------------------------------------------------------------------------------->
 
