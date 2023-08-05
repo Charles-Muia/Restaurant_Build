@@ -40,11 +40,11 @@
                     </div>
                         <nav>
                             <li><a href="#">home</a></li>
-                            <li><a href="#">about us</a></li>
+                            <li><a href="#">about</a></li>
                             <li><a href="#">menu</a></li>
                             <li><a href="#">booking</a></li>
                             <li><a href="#">blog</a></li>
-                            <li><a href="#">contact us</a></li>
+                            <li><a href="#">contact</a></li>
                         </nav>
                 </div>
             </div>
@@ -52,6 +52,16 @@
 
 <!----===HERO SECTION-------------------------------------------------------------------------------------------------->
 
+        <section class="hero-sec">
+            <div class="container">
+                <div class="hero-sec-content">
+                    <img src="Gallery/Resized_lg_3.png" alt="">
+                        <h2>fine dining at its best</h2>
+                            <h3>a genuine experience awaits</h3>
+                    
+                </div>
+            </div>
+        </section>
 
 </body>
 </html>

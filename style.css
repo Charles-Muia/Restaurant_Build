@@ -4,7 +4,7 @@
         * {
         /*font-family: 'Poppins', sans-serif;*/
         /*font-family: 'Righteous', cursive;*/
-        font-family: 'Ubuntu', sans-serif;
+        /*font-family: 'Ubuntu', sans-serif;*/
         /*font-family: 'Jost', sans-serif;*/
          box-sizing: border-box;
          margin: 0;
@@ -50,6 +50,7 @@
         background: var(--bg-color4);
         position: fixed;
         padding: 1.5rem 0;
+        font-family: var(--ubuntu-font);
     }
 
     .header-navbar {
@@ -59,7 +60,7 @@
     }
 
     .header-navbar .logo img {
-        width: 30%;
+        width: 25%;
         display: block;
         object-fit: cover;
     }
@@ -75,16 +76,63 @@
     }
 
     .header-navbar nav li a {
-        font-size: 1.2rem;
+        font-size: 1rem;
         color: var(--main-color3);
         text-transform: uppercase;
         text-decoration: none;
+        font-weight: 500;
+        padding: 0.5rem 0.5rem;
     }
 
     .header-navbar nav li a:hover {
         color: var(--main-color);
+        background: black;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        transition: ease .40s;
     }
 
 /*===HERO CSS---------------------------------------------------------------------------------------------------------*/
 
+    .hero-sec {
+        font-family: var(--Poppins-font);
+        background: url("Gallery/Board_1.jpg") no-repeat center center/cover;
+        min-height: 90vh;
+        position: relative;
+        z-index: -10;
+    }
+
+    .hero-sec::before {
+        content: '';
+        background: var(--bg-color2);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -11;
+    }
+
+    .hero-sec .hero-sec-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        min-height: 80vh;
+        padding: 1.5rem 0;
+    }
+
+    .hero-sec .hero-sec-content img {
+        margin-top: 170px;
+        width: 35%;
+    }
+
+    .hero-sec .hero-sec-content h2 {
+        font-size: var(--h2-font);
+        text-transform: uppercase;
+        color: var(--bg-color4);
+        font-family: var(--ubuntu-font);
+        text-align: center;
+        letter-spacing: 3px;
+    }
 
