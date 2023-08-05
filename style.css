@@ -6,6 +6,8 @@
         /*font-family: 'Righteous', cursive;*/
         /*font-family: 'Ubuntu', sans-serif;*/
         /*font-family: 'Jost', sans-serif;*/
+        /*font-family: 'Urbanist', sans-serif;*/
+        /*font-family: 'Ubuntu Condensed', sans-serif;*/
          box-sizing: border-box;
          margin: 0;
          padding: 0;
@@ -34,6 +36,8 @@
         --Righteous-font: 'Righteous', cursive;
         --ubuntu-font: 'Ubuntu', sans-serif;
         --Jost-font: 'Jost', sans-serif;
+        --Urbanist-font:'Urbanist', sans-serif;
+        --Condensed-font: 'Ubuntu Condensed', sans-serif;
         --box-shadow: 10px 10px 5px rgba(0,0,0,.3);
     }
 
@@ -60,7 +64,7 @@
     }
 
     .header-navbar .logo img {
-        width: 25%;
+        width: 120px;
         display: block;
         object-fit: cover;
     }
@@ -130,9 +134,19 @@
     .hero-sec .hero-sec-content h2 {
         font-size: var(--h2-font);
         text-transform: uppercase;
-        color: var(--bg-color4);
-        font-family: var(--ubuntu-font);
+        color: var(--bg-color3);
+        font-family: var(--Urbanist-font);
         text-align: center;
-        letter-spacing: 3px;
+        letter-spacing: 1px;
     }
+
+    .hero-sec .hero-sec-content h3 {
+        font-size: 1.8rem;
+        text-transform: uppercase;
+        color: var(--bg-color3);
+        text-align: center;
+        letter-spacing: 1px;
+
+    }
+
 
