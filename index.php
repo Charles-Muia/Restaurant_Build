@@ -19,6 +19,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&family=Urbanist&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
 
 <!--===Favicon Icon---------------------------------------------------------------------------------------------------->
 
@@ -88,14 +91,14 @@
                         </div>
                         <div class="imgs-content">
                             <div class="imgs">
-                                <img src="Gallery/Kienyeji_2.jpg" alt="">
+                                <img src="Gallery/Kienyeji_3.jpg" alt="">
                                     <div class="content-for-img">
                                         <h4>kienyeji, greens & ugali</h4>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio est ut velit!</p>
                                     </div>
                             </div>
                             <div class="prices">
-                                <p>450/=</p>
+                                <p>KES <br> 450</p>
                             </div>
                         </div>
 
@@ -108,27 +111,27 @@
                                 </div>
                             </div>
                             <div class="prices">
-                                <p>450/=</p>
+                                <p>KES <br> 450</p>
                             </div>
                         </div>
 
                         <div class="imgs-content">
                             <div class="imgs">
-                                <img src="Gallery/Fish_2.jpg" alt="">
+                                <img src="Gallery/Fish_2_.jpg" alt="">
                                 <div class="content-for-img">
                                     <h4>kienyeji, greens & ugali</h4>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio est ut velit!</p>
                                 </div>
                             </div>
                             <div class="prices">
-                                <p>450/=</p>
+                                <p>KES <br> 450</p>
                             </div>
                         </div>
 
                     </div>
                     <div class="right-side-content">
                         <div class="img-right-side">
-                            <img src="Gallery/FoodCombos3.jpg" alt="">
+                            <img src="Gallery/FoodCombos3_2.jpg" alt="">
                         </div>
                     </div>
                 </div>

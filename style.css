@@ -8,6 +8,7 @@
         /*font-family: 'Jost', sans-serif;*/
         /*font-family: 'Urbanist', sans-serif;*/
         /*font-family: 'Ubuntu Condensed', sans-serif;*/
+        /*  font-family: 'Outfit', sans-serif;*/
          box-sizing: border-box;
          margin: 0;
          padding: 0;
@@ -39,6 +40,7 @@
         --Jost-font: 'Jost', sans-serif;
         --Urbanist-font:'Urbanist', sans-serif;
         --Condensed-font: 'Ubuntu Condensed', sans-serif;
+        --outfit-font:'Outfit', sans-serif;
         --box-shadow: 10px 10px 5px rgba(0,0,0,.3);
     }
 
@@ -233,6 +235,89 @@
     #sp-offers {
         padding: 10rem 0;  /*adds space 10rem top and bottom, 0 space right to left*/
         background: var(--bg-color);
+    }
+
+    .sp-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        grid-gap: 4rem;
+    }
+
+    .headings h2 {
+        font-size: var(--h2-font);
+        text-transform: capitalize;
+        color: #880808;
+        font-family: var(--Righteous-font);
+    }
+
+    .headings h3 {
+        font-size: 2rem;
+        text-transform: capitalize;
+        font-family: var(--Righteous-font);
+    }
+
+    .imgs-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.5rem 0;
+    }
+
+    .imgs {
+        display: flex;
+        align-items: center;
+    }
+
+    .imgs img {
+        display: block;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 2px solid #880808;
+        border-left: 3px solid #000000;
+        border-bottom: 3px solid #f75023;
+        border-top: 3px solid #880000;
+    }
+
+    .content-for-img {
+        padding-left: 3rem;
+    }
+
+    .content-for-img h4 {
+        font-size: 1rem;
+        padding-block-end: 0.5rem;
+        font-family: var(--Urbanist-font);
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+
+    .content-for-img p {
+        font-family: var(--ubuntu-font);
+        line-height: 1.5;
+    }
+
+    .imgs-content .prices {
+        font-family: var(--outfit-font);
+        font-weight: 600;
+        font-size: 0.9rem;
+        border: 1px solid #f75023;
+        padding: 0.5rem;
+        border-radius: 50%;
+        line-height: 1;
+        background: var(--text-color);
+        color: var(--bg-color);
+    }
+
+    .right-side-content {
+        width: 100%;
+    }
+
+    .right-side-content img {
+        display: block;
+        object-fit: cover;
+        margin-left: auto;
+        width: 100%;
+
     }
 
 
