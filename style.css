@@ -421,6 +421,86 @@
         color: var(--bg-color);
     }
 
+/*<!----===DEAL OF THE DAY SECTION CSS------------------------------------------------------------------------------->*/
+
+    #todays-deal {
+        padding: 10rem 0;
+        /*background: var(--bg-color4);*/
+        /*background: url("Gallery/OIP_1.png") no-repeat;*/
+    }
+
+    #todays-deal h3 {
+        margin-top: 10px;
+        text-transform: uppercase;
+        color: var(--red-color);
+        text-align: center;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+        font-size: 2rem;
+        font-family: var(--Righteous-font);
+    }
+
+    #todays-deal h2 {
+        /*font-size: var(--h2-font);*/
+        font-size: 28px;
+        text-transform: uppercase;
+        color: var(--text-color);
+        font-family: var(--Urbanist-font);
+        text-align: center;
+        letter-spacing: 1px;
+        margin-top: 5px;
+    }
+
+    #todays-deal .card-content {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    #todays-deal .cards {
+        margin: 6rem 0;
+    }
+
+    #todays-deal .cards p {
+        font-size: 16px;
+    }
+
+    #todays-deal .card-content .cards img {
+        width: 20%;
+    }
+
+    #todays-deal .card-content h4 {
+        font-size: 1rem;
+        padding-block-end: 0.5rem;
+        font-family: var(--Urbanist-font);
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+
+    #todays-deal .card-content .price {
+        font-family: var(--outfit-font);
+        font-weight: 600;
+        font-size: 0.9rem;
+        /*border: 1px solid #f75023;*/
+        padding: 0.5rem;
+        /*border-radius: 50%;*/
+        line-height: 1;
+        /*background: var(--text-color);*/
+        /*color: var(--main-color);*/
+        color: #860111;
+        text-transform: uppercase;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*.offers-sec {*/
