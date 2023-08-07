@@ -78,6 +78,62 @@
 
 <!----===OFFERS SECTION-------------------------------------------------------------------------------------------------->
 
+        <aside id="sp-offers">
+            <div class="container">
+                <div class="sp-content">
+                    <div class="left-side-content">
+                        <div class="headings">
+                            <h3>finger licking menu</h3>
+                            <h2>captains orders</h2>
+                        </div>
+                        <div class="imgs-content">
+                            <div class="imgs">
+                                <img src="Gallery/Kienyeji_2.jpg" alt="">
+                                    <div class="content-for-img">
+                                        <h4>kienyeji, greens & ugali</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio est ut velit!</p>
+                                    </div>
+                            </div>
+                            <div class="prices">
+                                <p>450/=</p>
+                            </div>
+                        </div>
+
+                        <div class="imgs-content">
+                            <div class="imgs">
+                                <img src="Gallery/Salad4.jpg" alt="">
+                                <div class="content-for-img">
+                                    <h4>kienyeji, greens & ugali</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio est ut velit!</p>
+                                </div>
+                            </div>
+                            <div class="prices">
+                                <p>450/=</p>
+                            </div>
+                        </div>
+
+                        <div class="imgs-content">
+                            <div class="imgs">
+                                <img src="Gallery/Fish_2.jpg" alt="">
+                                <div class="content-for-img">
+                                    <h4>kienyeji, greens & ugali</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio est ut velit!</p>
+                                </div>
+                            </div>
+                            <div class="prices">
+                                <p>450/=</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="right-side-content">
+                        <div class="img-right-side">
+                            <img src="Gallery/FoodCombos3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
 <!--        <section class="offers-sec">-->
 <!--            <aside class="offers-side">-->
 <!--                <div class="container">-->

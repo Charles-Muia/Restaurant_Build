@@ -221,13 +221,22 @@
         font-size: 1.8rem;
         margin-top: 10px;
         text-transform: uppercase;
-        color: var(--bg-color5);
+        /*color: var(--bg-color5);*/
+        color: #faf9f6;
         text-align: center;
         letter-spacing: 1px;
         margin-bottom: 20px;
     }
 
 /*===OFFERS SECTION CSS-----------------------------------------------------------------------------------------------*/
+
+    #sp-offers {
+        padding: 10rem 0;  /*adds space 10rem top and bottom, 0 space right to left*/
+        background: var(--bg-color);
+    }
+
+
+
 
     /*.offers-sec {*/
     /*    background: var(--5th-color);*/
@@ -307,3 +316,8 @@
     /*    margin-left: auto;*/
     /*    width: 100%;*/
     /*}*/
+
+
+
+
+
