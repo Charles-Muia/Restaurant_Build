@@ -46,15 +46,14 @@
             <div class="container">
                 <div class="header-navbar">
                     <div class="logo">
-                        <a href="#"><img src="Gallery/Resized_lg_3.png" alt=""></a>
+                        <a href="index.php"><img src="Gallery/Resized_lg_3.png" alt=""></a>
                     </div>
                         <nav>
                                 <div class="btn">
                                     <i class="fas fa-times close-btn"></i>
                                 </div>
-
-                            <li><a href="#">home</a></li>
-                            <li><a href="#">about</a></li>
+                            <li><a href="index.php">home</a></li>
+                            <li><a href="#about">about</a></li>
                             <li><a href="#">menu</a></li>
                             <li><a href="#">booking</a></li>
                             <li><a href="#">blog</a></li>
@@ -81,7 +80,7 @@
 
 <!----===OFFERS SECTION-------------------------------------------------------------------------------------------------->
 
-        <aside id="sp-offers">
+        <aside class="sp-offers" id="about">
             <div class="container">
                 <div class="sp-content">
                     <div class="left-side-content">
@@ -137,65 +136,27 @@
                 </div>
             </div>
         </aside>
-<!--        <section class="offers-sec">-->
-<!--            <aside class="offers-side">-->
-<!--                <div class="container">-->
-<!--                    <div class="offers-side-content">-->
-<!--                        <div class="left-side-content">-->
-<!--                            <div class="lsc-heading">-->
-<!--                                <h3>finger licking menu</h3>-->
-<!--                                    <h2>captains orders</h2>-->
-<!--                            </div>-->
-<!--                            <div class="img-content">-->
-<!--                                <div class="images">-->
-<!--                                    <img src="Gallery/Kienyeji.jpg" alt="">-->
-<!--                                    <div class="img-content-left">-->
-<!--                                        <h4>kienyeji, greens & ugali</h4>-->
-<!--                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque laborum natus quae quod voluptatem?.</p>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                <div class="prices">-->
-<!--                                    <p>kes 450</p>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!---->
-<!--                            <div class="img-content">-->
-<!--                                <div class="images">-->
-<!--                                    <img src="Gallery/Salad.jpg" alt="">-->
-<!--                                    <div class="img-content-left">-->
-<!--                                        <h4>kienyeji, greens & ugali</h4>-->
-<!--                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque laborum natus quae quod voluptatem?.</p>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                <div class="prices">-->
-<!--                                    <p>kes 450 </p>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!---->
-<!--                            <div class="img-content">-->
-<!--                                <div class="images">-->
-<!--                                    <img src="Gallery/Meat.jpg" alt="">-->
-<!--                                    <div class="img-content-left">-->
-<!--                                        <h4>kienyeji, greens & ugali</h4>-->
-<!--                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque laborum natus quae quod voluptatem?.</p>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                <div class="prices">-->
-<!--                                    <p>kes 450 </p>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!---->
-<!--                        </div>-->
-<!--                        <div class="right-side-content">-->
-<!--                            <div class="img-right-side">-->
-<!--                                <img src="Gallery/FoodCombos.jpg" alt="">-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </aside>-->
-<!--        </section>-->
 
+<!----===BOOKING SECTION-------------------------------------------------------------------------------------------------->
+
+         <div id="booking-section">
+             <div class="container">
+                <div class="form-data">
+                    <h3>your reservations</h3>
+                    <h2>book now</h2>
+                    <form action="">
+                        <input type="text" placeholder="Enter Your Name...">
+                        <input type="text" placeholder="Enter Your Mobile No...">
+                        <input type="email" placeholder="Enter Your Email Address...">
+                        <input type="text" placeholder="Number of Persons...">
+                        <input type="date" placeholder="Preferred Date...">
+                        <input type="text" placeholder="Preferred Time...">
+                        <textarea name="" id="" cols="10" rows="10" placeholder="Do you have any other request?"></textarea>
+                        <button type="button">book now</button>
+                    </form>
+                </div>
+             </div>
+         </div>
 
 
 

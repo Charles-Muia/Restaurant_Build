@@ -44,6 +44,10 @@
         --box-shadow: 10px 10px 5px rgba(0,0,0,.3);
     }
 
+    html {
+        scroll-behavior: smooth;
+    }
+
 /*===HEADER CSS-------------------------------------------------------------------------------------------------------*/
 
     .container {
@@ -112,6 +116,14 @@
         .container {
             padding: 0 50px;
         }
+
+        .imgs-content {
+            padding: 1rem 0;
+        }
+
+        .imgs-content .prices {
+            margin-left: 30px;
+        }
     }
 
     @media (max-width: 900px) {
@@ -170,6 +182,13 @@
 
         .hero-sec .hero-sec-content h3 {
             margin-top: 20px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .sp-content {
+            flex-direction: column;
+
         }
     }
 
@@ -232,13 +251,13 @@
 
 /*===OFFERS SECTION CSS-----------------------------------------------------------------------------------------------*/
 
-    #sp-offers {
+    .sp-offers {
         padding: 10rem 0;  /*adds space 10rem top and bottom, 0 space right to left*/
         background: var(--bg-color);
     }
 
     .sp-content {
-        display: grid;
+        display: flex; /*This can also be display: grid */
         grid-template-columns: repeat(2, 1fr);
         width: 100%;
         grid-gap: 4rem;
@@ -306,6 +325,7 @@
         line-height: 1;
         background: var(--text-color);
         color: var(--bg-color);
+        margin-left: 2rem;
     }
 
     .right-side-content {
@@ -317,13 +337,41 @@
         object-fit: cover;
         margin-left: auto;
         width: 100%;
+    }
 
+/*===BOOKING SECTION CSS--------------- -------------------------------------------------------------------------------*/
+
+    #booking-section {
+        background: url("Gallery/Reserved-table.jpg") no-repeat center center/cover;
+        /*min-height: 90vh;*/
+        padding: 6rem 0;
+    }
+
+    #booking-section .form-data {
+        background: var(--bg-color2);
+        color: var(--bg-color);
+        width: 100%;
+        padding: 4rem;
+    }
+
+    #booking-section .form-data h3 {
+        font-size: 2rem;
+        text-transform: capitalize;
+        font-family: var(--Righteous-font);
+    }
+
+    #booking-section .form-data h2 {
+        font-size: var(--h2-font);
+        text-transform: capitalize;
+        color: #faf9f6;
+        font-family: var(--Righteous-font);
     }
 
 
 
 
-    /*.offers-sec {*/
+
+/*.offers-sec {*/
     /*    background: var(--5th-color);*/
     /*    padding: 10rem 0;*/
     /*}*/
