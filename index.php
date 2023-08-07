@@ -78,64 +78,65 @@
 
 <!----===OFFERS SECTION-------------------------------------------------------------------------------------------------->
 
-        <section class="offers-sec">
-            <aside class="offers-side">
-                <div class="container">
-                    <div class="offers-side-content">
-                        <div class="left-side-content">
-                            <div class="lsc-heading">
-                                <h3>finger licking menu</h3>
-                                    <h2>master-chef orders</h2>
-                            </div>
-                            <div class="img-content">
-                                <div class="images">
-                                    <img src="Gallery/Kienyeji.jpg" alt="">
-                                    <div class="img-content">
-                                        <h4>kienyeji, greens & ugali</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque laborum natus quae quod voluptatem? Cumque perferendis perspiciatis praesentium repudiandae ut.</p>
-                                    </div>
-                                </div>
-                                <div class="prices">
-                                    <p>kes 450 </p>
-                                </div>
-                            </div>
+<!--        <section class="offers-sec">-->
+<!--            <aside class="offers-side">-->
+<!--                <div class="container">-->
+<!--                    <div class="offers-side-content">-->
+<!--                        <div class="left-side-content">-->
+<!--                            <div class="lsc-heading">-->
+<!--                                <h3>finger licking menu</h3>-->
+<!--                                    <h2>captains orders</h2>-->
+<!--                            </div>-->
+<!--                            <div class="img-content">-->
+<!--                                <div class="images">-->
+<!--                                    <img src="Gallery/Kienyeji.jpg" alt="">-->
+<!--                                    <div class="img-content-left">-->
+<!--                                        <h4>kienyeji, greens & ugali</h4>-->
+<!--                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque laborum natus quae quod voluptatem?.</p>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="prices">-->
+<!--                                    <p>kes 450</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!---->
+<!--                            <div class="img-content">-->
+<!--                                <div class="images">-->
+<!--                                    <img src="Gallery/Salad.jpg" alt="">-->
+<!--                                    <div class="img-content-left">-->
+<!--                                        <h4>kienyeji, greens & ugali</h4>-->
+<!--                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque laborum natus quae quod voluptatem?.</p>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="prices">-->
+<!--                                    <p>kes 450 </p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!---->
+<!--                            <div class="img-content">-->
+<!--                                <div class="images">-->
+<!--                                    <img src="Gallery/Meat.jpg" alt="">-->
+<!--                                    <div class="img-content-left">-->
+<!--                                        <h4>kienyeji, greens & ugali</h4>-->
+<!--                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque laborum natus quae quod voluptatem?.</p>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="prices">-->
+<!--                                    <p>kes 450 </p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!---->
+<!--                        </div>-->
+<!--                        <div class="right-side-content">-->
+<!--                            <div class="img-right-side">-->
+<!--                                <img src="Gallery/FoodCombos.jpg" alt="">-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </aside>-->
+<!--        </section>-->
 
-                            <div class="img-content">
-                                <div class="images">
-                                    <img src="Gallery/Salad.jpg" alt="">
-                                    <div class="img-content">
-                                        <h4>kienyeji, greens & ugali</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque laborum natus quae quod voluptatem? Cumque perferendis perspiciatis praesentium repudiandae ut.</p>
-                                    </div>
-                                </div>
-                                <div class="prices">
-                                    <p>kes 450 </p>
-                                </div>
-                            </div>
-
-                            <div class="img-content">
-                                <div class="images">
-                                    <img src="Gallery/Meat.jpg" alt="">
-                                    <div class="img-content">
-                                        <h4>kienyeji, greens & ugali</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque laborum natus quae quod voluptatem? Cumque perferendis perspiciatis praesentium repudiandae ut.</p>
-                                    </div>
-                                </div>
-                                <div class="prices">
-                                    <p>kes 450 </p>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="right-side-content">
-                            <div class="img-right-side">
-                                <img src="Gallery/Fish.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </aside>
-        </section>
 
 
 
