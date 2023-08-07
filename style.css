@@ -124,6 +124,10 @@
         .imgs-content .prices {
             margin-left: 30px;
         }
+
+        .form-data {
+            width: 70%;
+        }
     }
 
     @media (max-width: 900px) {
@@ -185,10 +189,18 @@
         }
     }
 
+
     @media (max-width: 768px) {
         .sp-content {
             flex-direction: column;
+        }
 
+        .form-data {
+            width: 100%;
+        }
+
+        #booking-section .form-data form input {
+            width: 100%;
         }
     }
 
@@ -345,6 +357,7 @@
         background: url("Gallery/Reserved-table.jpg") no-repeat center center/cover;
         /*min-height: 90vh;*/
         padding: 6rem 0;
+        text-align: center;
     }
 
     #booking-section .form-data {
@@ -365,9 +378,48 @@
         text-transform: capitalize;
         color: #faf9f6;
         font-family: var(--Righteous-font);
+
     }
 
+    #booking-section .form-data form {
+        /*padding: 4rem 0;*/
+        padding: 1.5rem 0;
 
+    }
+
+    #booking-section .form-data form input {
+        width: 50%;
+        padding: 1rem 0.5rem;
+        margin-bottom: 1rem;
+        border: none;
+        border-radius: 5px;
+    }
+
+    #booking-section .form-data form textarea {
+        width: 60%;
+        padding: 1rem 0.5rem;
+        border-radius: 5px;
+    }
+
+    #booking-section .form-data form button {
+        width: 40%;
+        border: none;
+        display: inline-block;
+        padding: 1rem 0;
+        margin-top: 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-family: var(--outfit-font);
+        font-size: 20px;
+        font-weight: 600;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #booking-section .form-data form button:hover {
+        background: var(--third-color);
+        color: var(--bg-color);
+    }
 
 
 

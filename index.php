@@ -55,7 +55,7 @@
                             <li><a href="index.php">home</a></li>
                             <li><a href="#about">about</a></li>
                             <li><a href="#">menu</a></li>
-                            <li><a href="#">booking</a></li>
+                            <li><a href="#booking-section">booking</a></li>
                             <li><a href="#">blog</a></li>
                             <li><a href="#">contact</a></li>
                         </nav>
