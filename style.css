@@ -467,6 +467,11 @@
 
     #todays-deal .card-content .cards img {
         width: 50%;
+        border-radius: 50%;
+        border: 2px solid #880808;
+        border-left: 4px solid #000000;
+        border-bottom: 4px solid #f75023;
+        border-top: 4px solid #880000;
     }
 
     #todays-deal .card-content h4 {
@@ -483,12 +488,8 @@
         font-family: var(--outfit-font);
         font-weight: 600;
         font-size: 1.2rem;
-        /*border: 1px solid #f75023;*/
-        padding: 0.5rem;
-        /*border-radius: 50%;*/
+        padding: 0.9rem;
         line-height: 1;
-        /*background: var(--text-color);*/
-        /*color: var(--main-color);*/
         color: #860111;
         text-transform: uppercase;
         text-align: center;

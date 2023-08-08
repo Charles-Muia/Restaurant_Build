@@ -172,13 +172,13 @@
                 <h2>food made real good</h2>
                     <div class="card-content swiper-wrapper" >
                                 <div class="cards swiper-slide">
-                                    <img src="Gallery/Meat.jpg" alt="">
+                                    <img src="Gallery/Meat_.jpg" alt="">
                                         <h4>medium rare stake & Veg</h4>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias at optio.</p>
                                         <p class="price">only 550/=</p>
                                 </div>
                                 <div class="cards swiper-slide">
-                                    <img src="Gallery/Salad_With.png" alt="">
+                                    <img src="Gallery/Salad_.png" alt="">
                                         <h4>chefs salad with fillet & Veg</h4>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias at optio.</p>
                                         <p class="price">only 550/=</p>
