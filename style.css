@@ -339,6 +339,13 @@
         background: var(--text-color);
         color: var(--bg-color);
         margin-left: 2rem;
+        cursor: pointer;
+    }
+
+    .imgs-content .prices:hover {
+        background: var(--main-color);
+        color: var(--text-color);
+        border: 1px solid #880000;
     }
 
     .right-side-content {
@@ -495,7 +502,60 @@
         text-align: center;
     }
 
+/*<!----===MENU SECTION CSS------------------------------------------------------------------------------------------>*/
 
+    #menu-sec {
+        background: var(--bg-color4);
+        padding: 10rem 0;
+    }
+
+    #menu-sec h3 {
+        margin-top: 10px;
+        text-transform: uppercase;
+        color: var(--red-color);
+        text-align: center;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+        font-size: 2rem;
+        font-family: var(--Righteous-font);
+    }
+
+    #menu-sec h2 {
+        /*font-size: var(--h2-font);*/
+        font-size: 28px;
+        text-transform: uppercase;
+        color: var(--text-color);
+        font-family: var(--Urbanist-font);
+        text-align: center;
+        letter-spacing: 1px;
+        margin-top: 5px;
+    }
+
+    .menu-sec-container {
+        margin: 2rem 0;
+    }
+
+    .menu-sec-container .btn-container {
+        margin: 4rem 0; /*top - bottom, left - right*/
+        width: 100%;
+        display: inline-block;
+        color: var(--bg-color2);
+        text-align: center;
+    }
+
+    .btn-container .btn-cat {
+        padding: 0.5rem 1.2rem;
+        cursor: pointer;
+        margin: 0 2rem;
+        border: 1px solid #880000;
+        font-size: 1.1rem;
+        border-radius: 5px;
+        text-transform: uppercase;
+    }
+
+    .btn-container .btn-cat:hover {
+
+    }
 
 
 

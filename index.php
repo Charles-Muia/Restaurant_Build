@@ -60,7 +60,7 @@
                                 </div>
                             <li><a href="index.php">home</a></li>
                             <li><a href="#about">about</a></li>
-                            <li><a href="#">menu</a></li>
+                            <li><a href="#menu-sec">menu</a></li>
                             <li><a href="#booking-section">booking</a></li>
                             <li><a href="#">blog</a></li>
                             <li><a href="#">contact</a></li>
@@ -194,6 +194,25 @@
             </div>
         </div>
 
+<!----===MENU SECTION-------------------------------------------------------------------------------------------------->
+
+        <section id="menu-sec">
+            <div class="container">
+                <h3>main dishes</h3>
+                <h2>restaurant menu</h2>
+                    <div class="menu-sec-container">
+                        <div class="btn-container">
+                            <button type="button" class="btn-cat">all dishes</button>
+                            <button type="button" class="btn-cat">breakfast</button>
+                            <button type="button" class="btn-cat">lunch</button>
+                            <button type="button" class="btn-cat">dinner</button>
+                            <button type="button" class="btn-cat">drinks</button>
+                            <button type="button" class="btn-cat">dessert</button>
+                        </div>
+                        <div class="menu-items-container"></div>
+                    </div>
+            </div>
+        </section>
 
 <!----===JS QUERY SECTION---------------------------------------------------------------------------------------------->
 
