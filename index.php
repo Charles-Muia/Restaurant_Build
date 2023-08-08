@@ -38,8 +38,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
 <!----===Use Swiper from CDN------------------------------------------------------------------------------------------->
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
 
 </head>
 <body>
@@ -164,8 +166,8 @@
 
 <!----===DEAL OF THE DAY SECTION--------------------------------------------------------------------------------------->
 
-        <div id="todays-deal">
-            <div class="container swiper mySwipe">
+        <div id="todays-deal" class="deal-sec">
+            <div class="container swiper mySwiper">
                 <h3>hot deal of the day</h3>
                 <h2>food made real good</h2>
                     <div class="card-content swiper-wrapper" >
@@ -182,8 +184,8 @@
                                         <p class="price">only 550/=</p>
                                 </div>
                                     <div class="cards swiper-slide">
-                                        <img src="Gallery/Fish2.jpg" alt="">
-                                            <h4>fish, ugali & curry</h4>
+                                        <img src="Gallery/Fish_2.png" alt="">
+                                            <h4>whole fish, ugali & curry</h4>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias at optio.</p>
                                         <p class="price">only 550/=</p>
                                     </div>
@@ -213,25 +215,35 @@
 
 <!----===JS SWIPER----------------------------------------------------------------------------------------------------->
 
-<!--    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>-->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
-    <script>
-        var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 3,
-            spaceBetween: 30,
-            slidesPerGroup: 1,
-            loop: true,
-            loopFillGroupWithBlank: true,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
-    </script>
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 3,
+                spaceBetween: 30,
+                slidePerGroup: 1,
+                loop: true,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                breakpoints: {
+                    0:{
+                        slidesPerView: 1,
+                    },
+                    768:{
+                        slidesPerView: 2,
+                    },
+                    968: {
+                        slidesPerView: 3,
+                    },
+                }
+            });
+        </script>
 
 </body>
 </html>
