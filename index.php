@@ -254,12 +254,12 @@
                                 <p>chocolate ice-cream</p>
                             </div>
                             <div class="img-cards">
-                                <img src="Gallery/Stake.jpg" alt="">
+                                <img src="Gallery/doublefrench.jpg" alt="">
                                 <p class="prices">Only 150/=</p>
                                 <p>chocolate ice-cream</p>
                             </div>
                             <div class="img-cards">
-                                <img src="Gallery/Stake.jpg" alt="">
+                                <img src="Gallery/Beef-wellington.png" alt="">
                                 <p class="prices">Only 150/=</p>
                                 <p>chocolate ice-cream</p>
                             </div>
