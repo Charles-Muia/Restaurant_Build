@@ -38,10 +38,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
 <!----===Use Swiper from CDN------------------------------------------------------------------------------------------->
-    <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
 </head>
 <body>
@@ -58,7 +56,7 @@
                                 <div class="btn">
                                     <i class="fas fa-times close-btn"></i>
                                 </div>
-                            <li><a href="index.php">home</a></li>
+                            <li><a class="active-link" href="index.php">home</a></li>
                             <li><a href="#about">about</a></li>
                             <li><a href="#menu-sec">menu</a></li>
                             <li><a href="#booking-section">booking</a></li>
@@ -202,14 +200,75 @@
                 <h2>restaurant menu</h2>
                     <div class="menu-sec-container">
                         <div class="btn-container">
-                            <button type="button" class="btn-cat">all dishes</button>
+                            <button type="button" class="btn-cat active-btn">all dishes</button>
                             <button type="button" class="btn-cat">breakfast</button>
                             <button type="button" class="btn-cat">lunch</button>
                             <button type="button" class="btn-cat">dinner</button>
                             <button type="button" class="btn-cat">drinks</button>
                             <button type="button" class="btn-cat">dessert</button>
                         </div>
-                        <div class="menu-items-container"></div>
+                        <div class="menu-items-container">
+                            <div class="img-cards">
+                                <img src="Gallery/Stake.jpg" alt="">
+                                    <p class="prices">Only 150/=</p>
+                                        <p>chocolate ice-cream</p>
+                            </div>
+                            <div class="img-cards">
+                                <img src="Gallery/Chicken.png" alt="">
+                                <p class="prices">Only 150/=</p>
+                                <p>chocolate ice-cream</p>
+                            </div>
+                            <div class="img-cards">
+                                <img src="Gallery/DrumSticks.jpg" alt="">
+                                <p class="prices">Only 150/=</p>
+                                <p>chocolate ice-cream</p>
+                            </div>
+                            <div class="img-cards">
+                                <img src="Gallery/Stake.jpg" alt="">
+                                <p class="prices">Only 150/=</p>
+                                <p>chocolate ice-cream</p>
+                            </div>
+                            <div class="img-cards">
+                                <img src="Gallery/Stake.jpg" alt="">
+                                <p class="prices">Only 150/=</p>
+                                <p>chocolate ice-cream</p>
+                            </div>
+                            <div class="img-cards">
+                                <img src="Gallery/Stake.jpg" alt="">
+                                <p class="prices">Only 150/=</p>
+                                <p>chocolate ice-cream</p>
+                            </div>
+                            <div class="img-cards">
+                                <img src="Gallery/Stake.jpg" alt="">
+                                <p class="prices">Only 150/=</p>
+                                <p>chocolate ice-cream</p>
+                            </div>
+                            <div class="img-cards">
+                                <img src="Gallery/Stake.jpg" alt="">
+                                <p class="prices">Only 150/=</p>
+                                <p>chocolate ice-cream</p>
+                            </div>
+                            <div class="img-cards">
+                                <img src="Gallery/Stake.jpg" alt="">
+                                <p class="prices">Only 150/=</p>
+                                <p>chocolate ice-cream</p>
+                            </div>
+                            <div class="img-cards">
+                                <img src="Gallery/Stake.jpg" alt="">
+                                <p class="prices">Only 150/=</p>
+                                <p>chocolate ice-cream</p>
+                            </div>
+                            <div class="img-cards">
+                                <img src="Gallery/Stake.jpg" alt="">
+                                <p class="prices">Only 150/=</p>
+                                <p>chocolate ice-cream</p>
+                            </div>
+                            <div class="img-cards">
+                                <img src="Gallery/Stake.jpg" alt="">
+                                <p class="prices">Only 150/=</p>
+                                <p>chocolate ice-cream</p>
+                            </div>
+                        </div>
                     </div>
             </div>
         </section>

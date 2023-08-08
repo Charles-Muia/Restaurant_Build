@@ -96,7 +96,7 @@
         padding: 0.5rem 0.5rem;
     }
 
-    .header-navbar nav li a:hover {
+    .header-navbar nav li a:hover, .active-link {
         color: var(--main-color);
         background: black;
         border-top-left-radius: 10px;
@@ -436,6 +436,7 @@
         /*background: url("Gallery/OIP_1.png") no-repeat;*/
     }
 
+
     #todays-deal h3 {
         margin-top: 10px;
         text-transform: uppercase;
@@ -473,7 +474,7 @@
     }
 
     #todays-deal .card-content .cards img {
-        width: 50%;
+        width: 200px;
         border-radius: 50%;
         border: 2px solid #880808;
         border-left: 4px solid #000000;
@@ -536,25 +537,51 @@
     }
 
     .menu-sec-container .btn-container {
-        margin: 4rem 0; /*top - bottom, left - right*/
+        margin: 3rem 0; /*top - bottom, left - right*/
         width: 100%;
         display: inline-block;
         color: var(--bg-color2);
         text-align: center;
     }
 
-    .btn-container .btn-cat {
+    .btn-cat {
         padding: 0.5rem 1.2rem;
         cursor: pointer;
         margin: 0 2rem;
         border: 1px solid #880000;
-        font-size: 1.1rem;
+        font-size: 0.9rem;
         border-radius: 5px;
         text-transform: uppercase;
+        color: var(--bg-color);
+        background: var(--text-color);
+        transition: all 0.5s ease-in-out;
     }
 
-    .btn-container .btn-cat:hover {
+    .btn-cat:hover, .active-btn {
+        color: var(--text-color);
+        background: var(--third-color);
+        border: 1px solid #ffffff;
+    }
 
+    .menu-items-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2rem;
+    }
+
+    .menu-items-container .img-cards {
+        border: 2px solid #880808;
+        border-left: 4px solid #000000;
+        border-bottom: 4px solid #f75023;
+        border-top: 4px solid #880000;
+        box-shadow: var(--box-shadow);
+    }
+
+    .img-cards img {
+        display: block;
+        width: 100%;
+        object-fit: cover;
+        margin-bottom: 2rem;
     }
 
 
@@ -565,87 +592,6 @@
 
 
 
-
-
-
-/*.offers-sec {*/
-    /*    background: var(--5th-color);*/
-    /*    padding: 10rem 0;*/
-    /*}*/
-
-    /*.offers-side-content {*/
-    /*    display: grid;*/
-    /*    grid-template-columns: repeat(2, 1fr);*/
-    /*    width: 100%;*/
-    /*    grid-gap: 3rem;*/
-    /*}*/
-
-    /*.lsc-heading h2 {*/
-    /*    font-size: var(--h2-font);*/
-    /*    text-transform: capitalize;*/
-    /*    color: #880808;*/
-    /*    font-family: var(--Righteous-font);*/
-    /*    margin-bottom: 25px;*/
-    /*}*/
-
-    /*.lsc-heading h3 {*/
-    /*    font-size: 2rem;*/
-    /*    text-transform: capitalize;*/
-    /*}*/
-
-    /*.img-content {*/
-    /*    display: flex;*/
-    /*    justify-content: space-between;*/
-    /*    align-items: center;*/
-    /*    padding: 3rem 0;*/
-    /*}*/
-
-    /*.images {*/
-    /*    display: flex;*/
-    /*    align-items: center;*/
-    /*}*/
-
-    /*.images img {*/
-    /*    display: block;*/
-    /*    object-fit: cover;*/
-    /*    width: 30%;*/
-    /*}*/
-
-    /*.img-content-left {*/
-    /*    padding-left: 3rem;*/
-    /*}*/
-
-    /*.img-content-left h4 {*/
-    /*    font-size: 1.5rem;*/
-    /*    padding-block-end: 0.5rem;*/
-    /*}*/
-
-    /*.img-content-left p {*/
-    /*    font-size: 1rem;*/
-    /*    line-height: 1.5;*/
-    /*}*/
-
-    /*.img-content .prices {*/
-    /*    font-size: 0.9rem;*/
-    /*    font-weight: 600;*/
-    /*    text-transform: uppercase;*/
-    /*    border: 1px solid #880808;*/
-    /*    border-radius: 50%;*/
-    /*    padding: 8px;*/
-    /*    text-align: center;*/
-    /*}*/
-
-    /*.right-side-content {*/
-    /*    width: 100%;*/
-    /*    background: var(--bg-color);*/
-    /*}*/
-
-    /*.right-side-content img {*/
-    /*    display: block;*/
-    /*    object-fit: cover;*/
-    /*    margin-left: auto;*/
-    /*    width: 100%;*/
-    /*}*/
 
 
 
