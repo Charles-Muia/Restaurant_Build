@@ -22,6 +22,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
 
 <!--===Favicon Icon---------------------------------------------------------------------------------------------------->
 
@@ -197,79 +200,95 @@
         <section id="menu-sec">
             <div class="container">
                 <h3>main dishes</h3>
-                <h2>restaurant menu</h2>
+                <h2>our restaurant menu</h2>
                     <div class="menu-sec-container">
                         <div class="btn-container">
-                            <button type="button" class="btn-cat active-btn">all dishes</button>
-                            <button type="button" class="btn-cat">breakfast</button>
-                            <button type="button" class="btn-cat">lunch</button>
-                            <button type="button" class="btn-cat">dinner</button>
-                            <button type="button" class="btn-cat">drinks</button>
-                            <button type="button" class="btn-cat">dessert</button>
+                            <button type="button" class="btn-cat active-btn" data-id="all">all dishes</button>
+                            <button type="button" class="btn-cat" data-id="breko">breakfast</button>
+                            <button type="button" class="btn-cat" data-id="lunch">lunch</button>
+                            <button type="button" class="btn-cat" data-id="dinner">dinner</button>
+                            <button type="button" class="btn-cat" data-id="drinks">drinks</button>
+                            <button type="button" class="btn-cat" data-id="dessert">dessert</button>
                         </div>
                         <div class="menu-items-container">
-                            <div class="img-cards">
-                                <img src="Gallery/Stake.jpg" alt="">
-                                    <p class="prices">Only 150/=</p>
-                                        <p>chocolate ice-cream</p>
-                            </div>
-                            <div class="img-cards">
-                                <img src="Gallery/Chicken.png" alt="">
-                                <p class="prices">Only 150/=</p>
-                                <p>chocolate ice-cream</p>
-                            </div>
-                            <div class="img-cards">
-                                <img src="Gallery/DrumSticks.jpg" alt="">
-                                <p class="prices">Only 150/=</p>
-                                <p>chocolate ice-cream</p>
-                            </div>
-                            <div class="img-cards">
-                                <img src="Gallery/Stake.jpg" alt="">
-                                <p class="prices">Only 150/=</p>
-                                <p>chocolate ice-cream</p>
-                            </div>
-                            <div class="img-cards">
-                                <img src="Gallery/Stake.jpg" alt="">
-                                <p class="prices">Only 150/=</p>
-                                <p>chocolate ice-cream</p>
-                            </div>
-                            <div class="img-cards">
-                                <img src="Gallery/Stake.jpg" alt="">
-                                <p class="prices">Only 150/=</p>
-                                <p>chocolate ice-cream</p>
-                            </div>
-                            <div class="img-cards">
-                                <img src="Gallery/Stake.jpg" alt="">
-                                <p class="prices">Only 150/=</p>
-                                <p>chocolate ice-cream</p>
-                            </div>
-                            <div class="img-cards">
-                                <img src="Gallery/Stake.jpg" alt="">
-                                <p class="prices">Only 150/=</p>
-                                <p>chocolate ice-cream</p>
-                            </div>
-                            <div class="img-cards">
-                                <img src="Gallery/Stake.jpg" alt="">
-                                <p class="prices">Only 150/=</p>
-                                <p>chocolate ice-cream</p>
-                            </div>
-                            <div class="img-cards">
-                                <img src="Gallery/doublefrench.jpg" alt="">
-                                <p class="prices">Only 150/=</p>
-                                <p>chocolate ice-cream</p>
-                            </div>
-                            <div class="img-cards">
-                                <img src="Gallery/Beef-wellington.png" alt="">
-                                <p class="prices">Only 150/=</p>
-                                <p>chocolate ice-cream</p>
-                            </div>
-                            <div class="img-cards">
-                                <img src="Gallery/Stake.jpg" alt="">
-                                <p class="prices">Only 150/=</p>
-                                <p>chocolate ice-cream</p>
-                            </div>
+<!--                            <div class="img-cards">-->
+<!--                                <img src="Gallery/Stake.jpg" alt="">-->
+<!--                                    <p class="prices">Only 150/=</p>-->
+<!--                                        <p>chocolate ice-cream</p>-->
+<!--                            </div>-->
+<!--                            <div class="img-cards">-->
+<!--                                <img src="Gallery/Chicken.png" alt="">-->
+<!--                                <p class="prices">Only 150/=</p>-->
+<!--                                <p>chocolate ice-cream</p>-->
+<!--                            </div>-->
+<!--                            <div class="img-cards">-->
+<!--                                <img src="Gallery/DrumSticks.jpg" alt="">-->
+<!--                                <p class="prices">Only 150/=</p>-->
+<!--                                <p>chocolate ice-cream</p>-->
+<!--                            </div>-->
+<!--                            <div class="img-cards">-->
+<!--                                <img src="Gallery/Stake.jpg" alt="">-->
+<!--                                <p class="prices">Only 150/=</p>-->
+<!--                                <p>chocolate ice-cream</p>-->
+<!--                            </div>-->
+<!--                            <div class="img-cards">-->
+<!--                                <img src="Gallery/Stake.jpg" alt="">-->
+<!--                                <p class="prices">Only 150/=</p>-->
+<!--                                <p>chocolate ice-cream</p>-->
+<!--                            </div>-->
+<!--                            <div class="img-cards">-->
+<!--                                <img src="Gallery/Stake.jpg" alt="">-->
+<!--                                <p class="prices">Only 150/=</p>-->
+<!--                                <p>chocolate ice-cream</p>-->
+<!--                            </div>-->
+<!--                            <div class="img-cards">-->
+<!--                                <img src="Gallery/Stake.jpg" alt="">-->
+<!--                                <p class="prices">Only 150/=</p>-->
+<!--                                <p>chocolate ice-cream</p>-->
+<!--                            </div>-->
+<!--                            <div class="img-cards">-->
+<!--                                <img src="Gallery/Stake.jpg" alt="">-->
+<!--                                <p class="prices">Only 150/=</p>-->
+<!--                                <p>chocolate ice-cream</p>-->
+<!--                            </div>-->
+<!--                            <div class="img-cards">-->
+<!--                                <img src="Gallery/Stake.jpg" alt="">-->
+<!--                                <p class="prices">Only 150/=</p>-->
+<!--                                <p>chocolate ice-cream</p>-->
+<!--                            </div>-->
+<!--                            <div class="img-cards">-->
+<!--                                <img src="Gallery/doublefrench.jpg" alt="">-->
+<!--                                <p class="prices">Only 150/=</p>-->
+<!--                                <p>chocolate ice-cream</p>-->
+<!--                            </div>-->
+<!--                            <div class="img-cards">-->
+<!--                                <img src="Gallery/Beef-wellington.png" alt="">-->
+<!--                                <p class="prices">Only 150/=</p>-->
+<!--                                <p>chocolate ice-cream</p>-->
+<!--                            </div>-->
+<!--                            <div class="img-cards">-->
+<!--                                <img src="Gallery/Stake.jpg" alt="">-->
+<!--                                <p class="prices">Only 150/=</p>-->
+<!--                                <p>chocolate ice-cream</p>-->
+<!--                            </div>-->
                         </div>
                     </div>
+            </div>
+        </section>
+
+<!----===TESTIMONIAL SECTION------------------------------------------------------------------------------------------->
+
+        <section id="customer-feedback">
+            <div>
+                    <h3>testimonials</h3>
+                    <h2>our customer's words</h2>
+                 <div class="customer-cards-container">
+                     <div class="customer-card">
+                         <img src="Gallery/Customer.jpeg" alt="">
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, ipsam iusto reprehenderit suscipit tempora.</p>
+                         <p class="customer-name">Robert Konnect</p>
+                     </div>
+                 </div>
             </div>
         </section>
 
@@ -322,6 +341,148 @@
                 }
             });
         </script>
+
+<!----===JS MENU SECTION IMAGES---------------------------------------------------------------------------------------->
+
+     <script>
+         const SectionCenter = document.querySelector('.menu-items-container');
+         const filterBtns = document.querySelectorAll('.btn-cat');
+
+         filterBtns.forEach(function (btn){
+             btn.addEventListener("click", function (e) {
+                 const category = e.currentTarget.dataset.id;
+                 const menucategory = menu.filter(function (menuItem) {
+                     if(menuItem.category==category) {
+                         return menuItem;
+                     }
+                 });
+
+                 if(category=="all") {
+                     displayMenuItems(menu);
+                 }
+
+                 else {
+                     displayMenuItems(menucategory);
+                 }
+
+             })
+         });
+
+            const menu = [
+                {
+                  id: 1,
+                  title: ""
+                  category: "breakfast",
+                    price: 550,
+                    img: "Gallery/Stake.jpg"
+                },
+
+                {
+                    id: 2,
+                    title: ""
+                    category: "lunch",
+                    price: 550,
+                    img: "Gallery/Stake.jpg"
+                },
+
+                {
+                    id: 3,
+                    title: "chocolate ice-cream"
+                    category: "dinner",
+                    price: 550,
+                    img: "Gallery/Stake.jpg"
+                },
+
+                {
+                    id: 4,
+                    title: "chocolate ice-cream"
+                    category: "drinks",
+                    price: 550,
+                    img: "Gallery/Stake.jpg"
+                },
+
+                {
+                    id: 5,
+                    title: "chocolate ice-cream"
+                    category: "dessert",
+                    price: 550,
+                    img: "Gallery/Stake.jpg"
+                },
+
+                {
+                    id: 6,
+                    title: "chocolate ice-cream"
+                    category: "Breakfast",
+                    price: 550,
+                    img: "Gallery/Stake.jpg"
+                },
+
+                {
+                    id: 7,
+                    title: "chocolate ice-cream"
+                    category: "lunch",
+                    price: 550,
+                    img: "Gallery/Fish.jpg"
+                },
+
+                {
+                    id: 8,
+                    title: "chocolate ice-cream"
+                    category: "dinner",
+                    price: 550,
+                    img: "Gallery/Stake.jpg"
+                },
+
+                {
+                    id: 9,
+                    title: "chocolate ice-cream"
+                    category: "drinks",
+                    price: 550,
+                    img: "Gallery/Stake.jpg"
+                },
+
+                {
+                    id: 10,
+                    title: "chocolate ice-cream"
+                    category: "dessert",
+                    price: 550,
+                    img: "Gallery/Stake.jpg"
+                },
+
+                {
+                    id: 11,
+                    title: "chocolate ice-cream"
+                    category: "Breakfast",
+                    price: 550,
+                    img: "Gallery/Stake.jpg"
+                },
+
+                {
+                    id: 12,
+                    title: "chocolate ice-cream"
+                    category: "lunch",
+                    price: 550,
+                    img: "Gallery/Stake.jpg"
+                },
+            ]
+
+            window.addEventListener("DOMContentLoaded", function () {
+                displayMenuItems(menu);
+            });
+
+            function displayMenuItems (menuItem) {
+                let displayMenuItems = menuItem.map(function (item) {
+                        return `<div class="img-cards">
+                            <img src=${item.img} alt="">
+                        <p class="prices">${item.price}</p>
+                    <p>${item.title}</p>
+                </div>`;
+                })
+                displayMenuItems = displayMenuItems.join("");
+                    SectionCenter.innerHTML = displayMenuItems;
+            }
+
+     </script>
 
 </body>
 </html>

@@ -8,7 +8,8 @@
         /*font-family: 'Jost', sans-serif;*/
         /*font-family: 'Urbanist', sans-serif;*/
         /*font-family: 'Ubuntu Condensed', sans-serif;*/
-        /*  font-family: 'Outfit', sans-serif;*/
+        /*font-family: 'Outfit', sans-serif;*/
+        /*font-family: 'Tilt Neon', cursive;*/
          box-sizing: border-box;
          margin: 0;
          padding: 0;
@@ -41,6 +42,7 @@
         --Urbanist-font:'Urbanist', sans-serif;
         --Condensed-font: 'Ubuntu Condensed', sans-serif;
         --outfit-font:'Outfit', sans-serif;
+        --tilt-font:'Tilt Neon', cursive;
         --box-shadow: 10px 10px 5px rgba(0,0,0,.3);
     }
 
@@ -158,7 +160,7 @@
         }
 
         nav.active {
-            right: 0%;
+            right: 0;
             transition: all 1s ease-in;
         }
 
@@ -436,7 +438,6 @@
         /*background: url("Gallery/OIP_1.png") no-repeat;*/
     }
 
-
     #todays-deal h3 {
         margin-top: 10px;
         text-transform: uppercase;
@@ -503,7 +504,7 @@
         text-align: center;
     }
 
-/*<!----===MENU SECTION CSS------------------------------------------------------------------------------------------>*/
+/*----===MENU SECTION CSS------------------------------------------------------------------------------------------>*/
 
     #menu-sec {
         background: var(--bg-color4);
@@ -604,9 +605,51 @@
         transform: scale(1.1);
     }
 
+/*===MENU SECTION MEDIA QUERY CSS-------------------------------------------------------------------------------------------*/
 
+    @media (max-width: 768px) {
+        .menu-items-container {
+            grid-template-columns: repeat(2,1fr);
+        }
 
+        .btn-cat {
+            margin: 1rem 1rem;  /*creates space (right - left) and (Top to bottom)*/
+        }
+    }
 
+    @media (max-width: 520px) {
+        .menu-items-container {
+            grid-template-columns: repeat(1,1fr);
+        }
+    }
+
+/*----===TESTIMONIAL SECTION------------------------------------------------------------------------------------------*/
+
+    #customer-feedback {
+        padding: 10rem 0;
+    }
+
+    #customer-feedback h3 {
+        margin-top: 10px;
+        text-transform: uppercase;
+        color: var(--red-color);
+        text-align: center;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+        font-size: 2rem;
+        font-family: var(--Righteous-font);
+    }
+
+    #customer-feedback h2 {
+        /*font-size: var(--h2-font);*/
+        font-size: 28px;
+        text-transform: uppercase;
+        color: var(--text-color);
+        font-family: var(--Urbanist-font);
+        text-align: center;
+        letter-spacing: 1px;
+        margin-top: 5px;
+    }
 
 
 
