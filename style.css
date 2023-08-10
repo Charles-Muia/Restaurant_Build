@@ -627,6 +627,19 @@
 
     #customer-feedback {
         padding: 10rem 0;
+        background: url("Gallery/FeedbackBackground1.jpg") no-repeat center center/cover fixed;
+        z-index: -1;
+    }
+
+    #customer-feedback::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.8);
+        z-index: -2;
     }
 
     #customer-feedback h3 {
@@ -644,12 +657,44 @@
         /*font-size: var(--h2-font);*/
         font-size: 28px;
         text-transform: uppercase;
-        color: var(--text-color);
+        color: var(--bg-color);
         font-family: var(--Urbanist-font);
         text-align: center;
         letter-spacing: 1px;
         margin-top: 5px;
     }
+
+    .customer-cards-container {
+        margin: 5rem 0;
+    }
+
+    .customer-card {
+        background: var(--bg-color);
+        text-align: center;
+        padding: 2rem;
+        box-shadow: var(--box-shadow);
+    }
+
+    .customer-card img {
+        display: block;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .customer-card p {
+        font-size: 1.1rem;
+        text-align: justify;
+        padding: 1.5rem 0;
+        font-family: var(--outfit-font);
+    }
+
+    .customer-card .customer-name {
+        text-align: center;
+        color: var(--red-color);
+        font-family: var(--tilt-font);
+        font-size: 1.3rem;
+    }
+
 
 
 

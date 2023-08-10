@@ -279,15 +279,27 @@
 <!----===TESTIMONIAL SECTION------------------------------------------------------------------------------------------->
 
         <section id="customer-feedback">
-            <div>
+            <div class="container">
                     <h3>testimonials</h3>
                     <h2>our customer's words</h2>
                  <div class="customer-cards-container">
-                     <div class="customer-card">
-                         <img src="Gallery/Customer.jpeg" alt="">
-                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, ipsam iusto reprehenderit suscipit tempora.</p>
-                         <p class="customer-name">Robert Konnect</p>
-                     </div>
+                                 <div class="customer-card">
+                                     <img src="Gallery/Customer_1.jpg" alt="">
+                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, ipsam iusto reprehenderit suscipit tempora.</p>
+                                     <p class="customer-name">Irene High</p>
+                                 </div>
+
+                                 <div class="customer-card">
+                                     <img src="Gallery/Customer_2.jpg" alt="">
+                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, ipsam iusto reprehenderit suscipit tempora.</p>
+                                     <p class="customer-name">Robert Konnect</p>
+                                 </div>
+
+                                <div class="customer-card">
+                                    <img src="Gallery/Putin_2.jpg" alt="">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, ipsam iusto reprehenderit suscipit tempora.</p>
+                                    <p class="customer-name">Vladimir Vladimirovich Putin</p>
+                                </div>
                  </div>
             </div>
         </section>
