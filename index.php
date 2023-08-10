@@ -416,6 +416,28 @@
 
 <!----===COUNTER SECTION----------------------------------------------------------------------------------------------->
 
+        <section id="counter-section">
+            <div class="container">
+                <div class="counters">
+                    <div class="counter">
+                        <div class="num">300</div>
+                            <h2>served dishes</h2>
+                    </div>
+                    <div class="counter">
+                        <div class="num">150</div>
+                        <h2>staff</h2>
+                    </div>
+                    <div class="counter">
+                        <div class="num">500</div>
+                        <h2>happy customers</h2>
+                    </div>
+                    <div class="counter">
+                        <div class="num">220</div>
+                        <h2>events</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
 <!----===JS QUERY SECTION---------------------------------------------------------------------------------------------->
