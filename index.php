@@ -169,7 +169,7 @@
 
         <div id="todays-deal" class="deal-sec">
             <div class="container swiper mySwiper">
-                <h3>hot deal of the day</h3>
+                <h3>hot deals of the day</h3>
                 <h2>food made real good</h2>
                     <div class="card-content swiper-wrapper" >
                                 <div class="cards swiper-slide">
@@ -304,6 +304,10 @@
                <div class="swiper-pagination"></div>
             </div>
         </section>
+
+
+<!----===EVENTS SECTION------------------------------------------------------------------------------------------------>
+
 
 <!----===JS QUERY SECTION---------------------------------------------------------------------------------------------->
 
