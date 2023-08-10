@@ -178,18 +178,18 @@
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias at optio.</p>
                                         <p class="price">only 550/=</p>
                                 </div>
-                                <div class="cards swiper-slide">
-                                    <img src="Gallery/Salad_.png" alt="">
-                                        <h4>chefs salad with fillet & Veg</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias at optio.</p>
-                                        <p class="price">only 550/=</p>
-                                </div>
-                                    <div class="cards swiper-slide">
-                                        <img src="Gallery/Fish_2.png" alt="">
-                                            <h4>whole fish, ugali & curry</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias at optio.</p>
-                                        <p class="price">only 550/=</p>
-                                    </div>
+                                            <div class="cards swiper-slide">
+                                                <img src="Gallery/Salad_.png" alt="">
+                                                    <h4>chefs salad with fillet & Veg</h4>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias at optio.</p>
+                                                    <p class="price">only 550/=</p>
+                                            </div>
+                                        <div class="cards swiper-slide">
+                                            <img src="Gallery/Fish_2.png" alt="">
+                                                <h4>whole fish, ugali & curry</h4>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias at optio.</p>
+                                            <p class="price">only 550/=</p>
+                                        </div>
                     </div>
                 <div class="swiper-pagination"></div>
             </div>
@@ -279,28 +279,29 @@
 <!----===TESTIMONIAL SECTION------------------------------------------------------------------------------------------->
 
         <section id="customer-feedback">
-            <div class="container">
+            <div class="container swiper mySwiper">
                     <h3>testimonials</h3>
                     <h2>our customer's words</h2>
-                 <div class="customer-cards-container">
-                                 <div class="customer-card">
+                 <div class="customer-cards-container swiper-wrapper">
+                                 <div class="customer-card swiper-slide">
                                      <img src="Gallery/Customer_1.jpg" alt="">
-                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, ipsam iusto reprehenderit suscipit tempora.</p>
+                                     <p><i class='bx bxs-quote-alt-left'></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, ipsam iusto reprehenderit suscipit tempora. <i class='bx bxs-quote-alt-right'></i> </p>
                                      <p class="customer-name">Irene High</p>
                                  </div>
 
-                                 <div class="customer-card">
-                                     <img src="Gallery/Customer_2.jpg" alt="">
-                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, ipsam iusto reprehenderit suscipit tempora.</p>
+                                 <div class="customer-card swiper-slide">
+                                     <img src="Gallery/Customer_2.jpg" class="" alt="">
+                                     <p><i class='bx bxs-quote-alt-left'></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, ipsam iusto reprehenderit suscipit tempora. <i class='bx bxs-quote-alt-right'></i> </p>
                                      <p class="customer-name">Robert Konnect</p>
                                  </div>
 
-                                <div class="customer-card">
+                                <div class="customer-card swiper-slide">
                                     <img src="Gallery/Putin_2.jpg" alt="">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, ipsam iusto reprehenderit suscipit tempora.</p>
+                                    <p><i class='bx bxs-quote-alt-left'></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, ipsam iusto reprehenderit suscipit tempora. <i class='bx bxs-quote-alt-right'></i> </p>
                                     <p class="customer-name">Vladimir Vladimirovich Putin</p>
                                 </div>
                  </div>
+               <div class="swiper-pagination"></div>
             </div>
         </section>
 

@@ -628,7 +628,8 @@
     #customer-feedback {
         padding: 10rem 0;
         background: url("Gallery/FeedbackBackground1.jpg") no-repeat center center/cover fixed;
-        z-index: -1;
+        position: relative;
+
     }
 
     #customer-feedback::after {
@@ -639,7 +640,6 @@
         width: 100%;
         height: 100%;
         background: rgba(0,0,0,0.8);
-        z-index: -2;
     }
 
     #customer-feedback h3 {
@@ -666,6 +666,7 @@
 
     .customer-cards-container {
         margin: 5rem 0;
+        z-index: -1;
     }
 
     .customer-card {
@@ -679,6 +680,8 @@
         display: block;
         object-fit: cover;
         border-radius: 50%;
+        width: 250px;
+        margin: auto;
     }
 
     .customer-card p {
@@ -686,6 +689,10 @@
         text-align: justify;
         padding: 1.5rem 0;
         font-family: var(--outfit-font);
+    }
+
+    .customer-card p i {
+        color: var(--red-color);
     }
 
     .customer-card .customer-name {
