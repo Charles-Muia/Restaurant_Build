@@ -308,6 +308,115 @@
 
 <!----===EVENTS SECTION------------------------------------------------------------------------------------------------>
 
+        <section id="up-coming-events">
+            <div class="container swiper mySwiper">
+                <h3>wine & dine</h3>
+                <h2>events calender</h2>
+                <div class="events-cards-container swiper-wrapper">
+                    <div class="events-card swiper-slide">
+                        <img src="Gallery/Event.jpg" alt="">
+                        <div class="event-content">
+                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, ipsam iusto reprehenderit suscipit tempora.</p>
+                                <a href="#">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="events-card swiper-slide">
+                        <img src="Gallery/Event.jpg" alt="">
+                        <div class="event-content">
+                            <p><i class='bx bxs-quote-alt-left'></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, ipsam iusto reprehenderit suscipit tempora. <i class='bx bxs-quote-alt-right'></i> </p>
+                            <a href="#">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="events-card swiper-slide">
+                        <img src="Gallery/Event.jpg" alt="">
+                        <div class="event-content">
+                            <p><i class='bx bxs-quote-alt-left'></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, ipsam iusto reprehenderit suscipit tempora. <i class='bx bxs-quote-alt-right'></i> </p>
+                            <a href="#">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="events-card swiper-slide">
+                        <img src="Gallery/Event.jpg" alt="">
+                        <div class="event-content">
+                            <p><i class='bx bxs-quote-alt-left'></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, ipsam iusto reprehenderit suscipit tempora. <i class='bx bxs-quote-alt-right'></i> </p>
+                            <a href="#">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="events-card swiper-slide">
+                        <img src="Gallery/Event.jpg" alt="">
+                        <div class="event-content">
+                            <p><i class='bx bxs-quote-alt-left'></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, ipsam iusto reprehenderit suscipit tempora. <i class='bx bxs-quote-alt-right'></i> </p>
+                            <a href="#">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="events-card swiper-slide">
+                        <img src="Gallery/Event.jpg" alt="">
+                        <div class="event-content">
+                            <p><i class='bx bxs-quote-alt-left'></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, ipsam iusto reprehenderit suscipit tempora. <i class='bx bxs-quote-alt-right'></i> </p>
+                            <a href="#">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="events-card swiper-slide">
+                        <img src="Gallery/Event.jpg" alt="">
+                        <div class="event-content">
+                            <p><i class='bx bxs-quote-alt-left'></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, ipsam iusto reprehenderit suscipit tempora. <i class='bx bxs-quote-alt-right'></i> </p>
+                            <a href="#">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="events-card swiper-slide">
+                        <img src="Gallery/Event.jpg" alt="">
+                        <div class="event-content">
+                            <p><i class='bx bxs-quote-alt-left'></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, ipsam iusto reprehenderit suscipit tempora. <i class='bx bxs-quote-alt-right'></i> </p>
+                            <a href="#">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="events-card swiper-slide">
+                        <img src="Gallery/Event.jpg" alt="">
+                        <div class="event-content">
+                            <p><i class='bx bxs-quote-alt-left'></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, ipsam iusto reprehenderit suscipit tempora. <i class='bx bxs-quote-alt-right'></i> </p>
+                            <a href="#">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="events-card swiper-slide">
+                        <img src="Gallery/Event.jpg" alt="">
+                        <div class="event-content">
+                            <p><i class='bx bxs-quote-alt-left'></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, ipsam iusto reprehenderit suscipit tempora. <i class='bx bxs-quote-alt-right'></i> </p>
+                            <a href="#">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="events-card swiper-slide">
+                        <img src="Gallery/Event.jpg" alt="">
+                        <div class="event-content">
+                            <p><i class='bx bxs-quote-alt-left'></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, ipsam iusto reprehenderit suscipit tempora. <i class='bx bxs-quote-alt-right'></i> </p>
+                            <a href="#">read more</a>
+                        </div>
+                    </div>
+
+                    <div class="events-card swiper-slide">
+                        <img src="Gallery/Event.jpg" alt="">
+                        <div class="event-content">
+                            <p><i class='bx bxs-quote-alt-left'></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet debitis, ipsam iusto reprehenderit suscipit tempora. <i class='bx bxs-quote-alt-right'></i> </p>
+                            <a href="#">read more</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+<!----===COUNTER SECTION----------------------------------------------------------------------------------------------->
+
+
 
 <!----===JS QUERY SECTION---------------------------------------------------------------------------------------------->
 

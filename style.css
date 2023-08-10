@@ -556,6 +556,7 @@
         color: var(--bg-color);
         background: var(--text-color);
         transition: all 0.5s ease-in-out;
+        font-weight: 600;
     }
 
     .btn-cat:hover, .active-btn {
@@ -711,6 +712,82 @@
 
 /*----===EVENTS SECTION CSS-------------------------------------------------------------------------------------------*/
 
+    #up-coming-events {
+        background: url("Gallery/all-events_1.jpg") no-repeat center center/cover;
+        padding: 10rem 0;
+    }
+
+    #up-coming-events .container {
+        margin: 15px;
+    }
+
+    .events-cards-container {
+        margin: 6rem 0;
+    }
+
+    #up-coming-events h3 {
+        margin-top: 10px;
+        text-transform: uppercase;
+        color: var(--red-color);
+        text-align: center;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+        font-size: 2rem;
+        font-family: var(--Righteous-font);
+    }
+
+    #up-coming-events h2 {
+        /*font-size: var(--h2-font);*/
+        font-size: 28px;
+        text-transform: uppercase;
+        color: var(--bg-color);
+        font-family: var(--Urbanist-font);
+        text-align: center;
+        letter-spacing: 1px;
+        margin-top: 5px;
+    }
+        .events-card {
+        border: 1px solid var(--bg-color);
+            border-radius: 5px;
+            box-shadow: var(--box-shadow);
+        }
+
+        .events-card img {
+            display: block;
+            object-fit: cover;
+            width: 100%;
+        }
+
+        .event-content {
+            padding: 2rem;
+            text-align: center;
+            background: var(--bg-color);
+        }
+
+        .event-content p {
+            font-size: var(--p-font);
+            font-weight: 0;
+            text-align: center;
+            padding: 1.5rem 0;
+        }
+
+        .event-content a {
+            text-transform: uppercase;
+            margin-top: 20px;
+            text-decoration: none;
+            color: var(--bg-color) ;
+            background: var(--text-color);
+            padding: 0.5rem ;
+            border: 1px solid Var(--main-color);
+            border-radius: 5px;
+            transition: all 0.5s ease-in-out;
+            font-weight: 600;
+        }
+
+        .event-content a:hover {
+            color: #000000 ;
+            background: var(--main-color);
+        }
 
 
 
