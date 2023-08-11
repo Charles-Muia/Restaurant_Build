@@ -426,19 +426,19 @@
             <div class="container">
                 <div class="counters">
                     <div class="counter">
-                        <div class="num" data-cell="300">300</div>
+                        <div class="num" data-value="300">300</div>
                             <h2>served dishes</h2>
                     </div>
                     <div class="counter">
-                        <div class="num" data-cell="150">150</div>
+                        <div class="num" data-value="150">150</div>
                         <h2>staff</h2>
                     </div>
                     <div class="counter">
-                        <div class="num" data-cell="500">500</div>
+                        <div class="num" data-value="500">500</div>
                         <h2>happy customers</h2>
                     </div>
                     <div class="counter">
-                        <div class="num" data-cell="220">220</div>
+                        <div class="num" data-value="220">220</div>
                         <h2>events</h2>
                     </div>
                 </div>
@@ -644,8 +644,19 @@
         const countersE1 = document.querySelectorAll('.num');
         countersE1.forEach((countersE1) => {
             countersE1.innerHTML = "0";
+            increamentCounter ();
                 function increamentCounter () {
-                    let currentNum = +countersE1.getAttribute()
+                    let currentNum = +countersE1.innerHTML;
+                    const datavalue = countersE1.getAttribute("data-value");
+                    const increament = datavalue / 15;
+                    currentNum = Math.ceil(currentNum+increament);
+                        if(currentNum<datavalue) {
+                            countersE1.innerHTML = currentNum;
+                            setTimeout(increamentCounter, 70);
+                        }
+                            else {
+                                countersE1.innerHTML = datavalue
+                        }
                 }
         });
     </script>
