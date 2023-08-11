@@ -822,8 +822,6 @@
         font-size: 12px;
     }
 
-
-
     .counter {
         border: 1px solid var(--bg-color4);
         padding: 2rem;
@@ -833,11 +831,33 @@
         font-family: var(--Jost-font);
     }
 
-    .num {
-        font-size: 4rem;
+    .counter h2 {
+        /*font-family: 'Roboto', sans-serif;*/
     }
 
+    .num {
+        font-size: 4rem;
+        color: var(--third-color);
+        /*font-family: 'Montserrat', sans-serif;*/
+    }
 
+/*----===MEDIA QUERY COUNTER SECTION CSS------------------------------------------------------------------------------*/
 
+    @media (max-width: 768px) {
+       .counters {
+           grid-template-columns: repeat(2,1fr);
+           font-size: 15px;
+       }
+        .num {
+            font-size: 6rem;
+        }
+    }
+
+    @media (max-width: 520px) {
+        .counters {
+            grid-template-columns: repeat(1,1fr);
+            font-size: 15px;
+        }
+    }
 
 
