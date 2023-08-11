@@ -426,19 +426,19 @@
             <div class="container">
                 <div class="counters">
                     <div class="counter">
-                        <div class="num">300</div>
+                        <div class="num" data-cell="300">300</div>
                             <h2>served dishes</h2>
                     </div>
                     <div class="counter">
-                        <div class="num">150</div>
+                        <div class="num" data-cell="150">150</div>
                         <h2>staff</h2>
                     </div>
                     <div class="counter">
-                        <div class="num">500</div>
+                        <div class="num" data-cell="500">500</div>
                         <h2>happy customers</h2>
                     </div>
                     <div class="counter">
-                        <div class="num">220</div>
+                        <div class="num" data-cell="220">220</div>
                         <h2>events</h2>
                     </div>
                 </div>
@@ -637,6 +637,21 @@
             }
 
      </script>
+
+<!----===JS COUNTER SECTION CSS---------------------------------------------------------------------------------------->
+
+    <script>
+        const countersE1 = document.querySelectorAll('.num');
+        countersE1.forEach((countersE1) => {
+            countersE1.innerHTML = "0";
+                function increamentCounter () {
+                    let currentNum = +countersE1.getAttribute()
+                }
+        });
+    </script>
+
+
+
 
 </body>
 </html>
