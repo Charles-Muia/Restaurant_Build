@@ -450,7 +450,7 @@
         <section id="our-chefs">
             <div class="container swiper mySwiper">
                 <h3>our chefs</h3>
-                    <h2>expect the best</h2>
+                    <h2 id="title">expect the best</h2>
                     <div class="chef-container swiper-wrapper">
                         <div class="chef-cards swiper-slide">
                             <img src="Gallery/Chef_Naija.jpg" alt="" width="300">
@@ -481,7 +481,7 @@
                         <div class="chef-cards swiper-slide">
                             <img src="Gallery/Chef_Naija.jpg" alt="" width="300">
                             <div class="chef-content">
-                                <h2 class="chef-name">chef irene</h2>
+                                <h2 id="chef-name">chef irene</h2>
                                 <p class="position">lead chef</p>
                                 <div class="social-icons">
                                     <i class='bx bxl-facebook-circle'></i>

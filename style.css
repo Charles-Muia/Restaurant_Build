@@ -882,7 +882,7 @@
         font-family: var(--Righteous-font);
     }
 
-    #our-chefs .container h2 {
+    #our-chefs #title {
         /*font-size: var(--h2-font);*/
         font-size: 28px;
         text-transform: uppercase;
@@ -904,7 +904,12 @@
     }
 
     #chef-name {
-        font-size: 1rem;
+        font-size: 1.2rem;
+        text-align: center;
+        color: var(--red-color);
+        font-family: var(--tilt-font);
+        font-weight: 600;
+        text-transform: capitalize;
     }
 
     .chef-cards img {
@@ -923,6 +928,34 @@
 
     .position {
         font-size: 1.2rem;
+        padding: 0.5rem;
         color: var(--main-color);
+        background: var(--text-color);
+        margin-top: 10px;
+        text-transform: uppercase;
+        font-family: var(--tilt-font);
     }
+
+    .social-icons {
+        color: var(--red-color);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        padding: 1rem 0;
+    }
+
+    .social-icons i:hover {
+        color: var(--third-color);
+        background: var(--text-color);
+        border-radius: 50%;
+    }
+
+    .social-icons i {
+        font-size: 30px;
+        cursor: pointer;
+        padding: 0.5rem;
+        transition: all ease-in-out .50s;
+    }
+
 
