@@ -453,9 +453,9 @@
                     <h2>expect the best</h2>
                     <div class="chef-container swiper-wrapper">
                         <div class="chef-cards swiper-slide">
-                            <img src="Gallery/Chef_Busayo.jpg" alt="">
+                            <img src="Gallery/Chef_Naija.jpg" alt="" width="300">
                                 <div class="chef-content">
-                                    <h2>chef irene</h2>
+                                    <h2 id="chef-name">chef irene</h2>
                                         <p class="position">lead chef</p>
                                             <div class="social-icons">
                                                 <i class='bx bxl-facebook-circle'></i>
@@ -465,23 +465,23 @@
                                             </div>
                                 </div>
                         </div>
+<!--                        <div class="chef-cards swiper-slide">-->
+<!--                            <img src="Gallery/Chef_Gordon.webp" alt="" width="250">-->
+<!--                            <div class="chef-content">-->
+<!--                                <h2>chef irene</h2>-->
+<!--                                <p class="position">lead chef</p>-->
+<!--                                <div class="social-icons">-->
+<!--                                    <i class='bx bxl-facebook-circle'></i>-->
+<!--                                    <i class='bx bxl-twitter'></i>-->
+<!--                                    <i class='bx bxl-instagram'></i>-->
+<!--                                    <i class='bx bxl-youtube'></i>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
                         <div class="chef-cards swiper-slide">
-                            <img src="Gallery/Chef_Naija.jpg" alt="">
+                            <img src="Gallery/Chef_Naija.jpg" alt="" width="300">
                             <div class="chef-content">
-                                <h2>chef irene</h2>
-                                <p class="position">lead chef</p>
-                                <div class="social-icons">
-                                    <i class='bx bxl-facebook-circle'></i>
-                                    <i class='bx bxl-twitter'></i>
-                                    <i class='bx bxl-instagram'></i>
-                                    <i class='bx bxl-youtube'></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="chef-cards swiper-slide">
-                            <img src="Gallery/Chef_Gordon.webp" alt="">
-                            <div class="chef-content">
-                                <h2>chef irene</h2>
+                                <h2 class="chef-name">chef irene</h2>
                                 <p class="position">lead chef</p>
                                 <div class="social-icons">
                                     <i class='bx bxl-facebook-circle'></i>
