@@ -445,6 +445,56 @@
             </div>
         </section>
 
+<!----===OUR CHEF SECTION---------------------------------------------------------------------------------------------->
+
+        <section id="our-chefs">
+            <div class="container swiper mySwiper">
+                <h3>our chefs</h3>
+                    <h2>expect the best</h2>
+                    <div class="chef-container swiper-wrapper">
+                        <div class="chef-cards swiper-slide">
+                            <img src="Gallery/Chef_Busayo.jpg" alt="">
+                                <div class="chef-content">
+                                    <h2>chef irene</h2>
+                                        <p class="position">lead chef</p>
+                                            <div class="social-icons">
+                                                <i class='bx bxl-facebook-circle'></i>
+                                                <i class='bx bxl-twitter'></i>
+                                                <i class='bx bxl-instagram'></i>
+                                                <i class='bx bxl-youtube'></i>
+                                            </div>
+                                </div>
+                        </div>
+                        <div class="chef-cards swiper-slide">
+                            <img src="Gallery/Chef_Naija.jpg" alt="">
+                            <div class="chef-content">
+                                <h2>chef irene</h2>
+                                <p class="position">lead chef</p>
+                                <div class="social-icons">
+                                    <i class='bx bxl-facebook-circle'></i>
+                                    <i class='bx bxl-twitter'></i>
+                                    <i class='bx bxl-instagram'></i>
+                                    <i class='bx bxl-youtube'></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chef-cards swiper-slide">
+                            <img src="Gallery/Chef_Gordon.webp" alt="">
+                            <div class="chef-content">
+                                <h2>chef irene</h2>
+                                <p class="position">lead chef</p>
+                                <div class="social-icons">
+                                    <i class='bx bxl-facebook-circle'></i>
+                                    <i class='bx bxl-twitter'></i>
+                                    <i class='bx bxl-instagram'></i>
+                                    <i class='bx bxl-youtube'></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
 
 <!----===JS QUERY SECTION---------------------------------------------------------------------------------------------->
 
