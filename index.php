@@ -175,7 +175,7 @@
 
         <div id="todays-deal" class="deal-sec">
             <div class="container swiper mySwiper">
-                <h3>hot deals of the day</h3>
+                <h3>meal deals of the day</h3>
                 <h2>food made real good</h2>
                     <div class="card-content swiper-wrapper" >
                                 <div class="cards swiper-slide">
@@ -495,6 +495,48 @@
                 <div class="swiper-pagination"></div>
             </div>
         </section>
+
+<!----===FOOTER SECTION------------------------------------------------------------------------------------------------>
+
+        <section id="footer">
+            <div class="container">
+                <div class="footer-container">
+                    <div class="about-us">
+                        <h2><img src="Gallery/Resized_lg_1.png" alt=""></h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Amet harum illo illum ipsam ipsum labore quae quis quos repellendus voluptatum.</p>
+                                <a href="">read more</a>
+                    </div>
+                            <div class="opening-hours">
+                                <h2>opening hours</h2>
+                                    <p class="day">monday: <span>closed</span></p>
+                                    <p class="day">tue - fri: <span>*******10:00AM - 9:00PM</span></p>
+                                    <p class="day">saturday: <span>*******10:00AM - 9:00PM</span></p>
+                                    <p class="day" >sunday: <span>*******10:00AM - 12:00PM</span></p>
+                                    <p class="day" >public holidays: <span>*******10:00AM - 5:00PM</span></p>
+                            </div>
+                    <div class="contact-us">
+                        <h2>contact us</h2>
+                        <h3>get in touch</h3>
+                        <p>+254 722 000 000</p>
+                        <p class="address">add</p>
+                        <p>monrovia street, opposite nginyo towers, CBD. Nairobi</p>
+                        <p class="email"></p>
+                        <p>mainrestaurant@gmail.com or info.restaurant@restaurant.co.ke</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!----===COPY RIGHT FOOTER SECTION------------------------------------------------------------------------------------->
+
+        <footer>
+            <div class="container">
+                <p>
+                    Copyright &copy; 2023 . BwK Restaurant . Designed by <a href="#"> Charles Muia </a>
+                </p>
+            </div>
+        </footer>
 
 <!----===JS QUERY SECTION---------------------------------------------------------------------------------------------->
 
