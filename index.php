@@ -31,6 +31,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
 
 <!--===Favicon Icon---------------------------------------------------------------------------------------------------->
 
@@ -498,32 +501,105 @@
 
 <!----===FOOTER SECTION------------------------------------------------------------------------------------------------>
 
-        <section id="footer">
-            <div class="container">
-                <div class="footer-container">
-                    <div class="about-us">
-                        <h2><img src="Gallery/Resized_lg_1.png" alt=""></h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Amet harum illo illum ipsam ipsum labore quae quis quos repellendus voluptatum.</p>
-                                <a href="">read more</a>
+<!--        <section id="footer">-->
+<!--            <div class="container">-->
+<!--                <div class="footer-container">-->
+<!--                    <div class="about-us">-->
+<!--                        <h2><img src="Gallery/Resized_lg_1.png" alt=""></h2>-->
+<!--                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.-->
+<!--                                Amet harum illo illum ipsam ipsum labore quae quis quos repellendus voluptatum.</p>-->
+<!--                                <a href="">read more</a>-->
+<!--                    </div>-->
+<!--                            <div class="opening-hours">-->
+<!--                                <h2>opening hours</h2>-->
+<!--                                    <p class="day">monday: <span>closed</span></p>-->
+<!--                                    <p class="day">tue - fri: <span>*******10:00AM - 9:00PM</span></p>-->
+<!--                                    <p class="day">saturday: <span>*******10:00AM - 9:00PM</span></p>-->
+<!--                                    <p class="day" >sunday: <span>*******10:00AM - 12:00PM</span></p>-->
+<!--                                    <p class="day" >public holidays: <span>*******10:00AM - 5:00PM</span></p>-->
+<!--                            </div>-->
+<!--                    <div class="contact-us">-->
+<!--                        <h2>contact us</h2>-->
+<!--                        <h3>get in touch</h3>-->
+<!--                        <p>+254 722 000 000</p>-->
+<!--                        <p class="address">add</p>-->
+<!--                        <p>monrovia street, opposite nginyo towers, CBD. Nairobi</p>-->
+<!--                        <p class="email"></p>-->
+<!--                        <p>mainrestaurant@gmail.com or info.restaurant@restaurant.co.ke</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
+
+        <section class="footer-sec">
+            <div class="footer-container">
+                <div class="footer-wrapper">
+                    <div class="footer-widget">
+                        <a href="#"><img src="Gallery/Resized_lg_1.png" class="footer-logo" alt=""></a>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam ea iure voluptas!
+                            </p>
+                                <ul class="social-media-icons">
+                                    <li>
+                                        <a href="#">
+                                            <i class='bx bxl-pinterest'></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class='bx bxl-facebook-circle'></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class='bx bxl-twitter' ></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class='bx bxl-tiktok'></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class='bx bxl-youtube'></i>
+                                        </a>
+                                    </li>
+                                </ul>
                     </div>
-                            <div class="opening-hours">
-                                <h2>opening hours</h2>
-                                    <p class="day">monday: <span>closed</span></p>
-                                    <p class="day">tue - fri: <span>*******10:00AM - 9:00PM</span></p>
-                                    <p class="day">saturday: <span>*******10:00AM - 9:00PM</span></p>
-                                    <p class="day" >sunday: <span>*******10:00AM - 12:00PM</span></p>
-                                    <p class="day" >public holidays: <span>*******10:00AM - 5:00PM</span></p>
-                            </div>
-                    <div class="contact-us">
-                        <h2>contact us</h2>
-                        <h3>get in touch</h3>
-                        <p>+254 722 000 000</p>
-                        <p class="address">add</p>
-                        <p>monrovia street, opposite nginyo towers, CBD. Nairobi</p>
-                        <p class="email"></p>
-                        <p>mainrestaurant@gmail.com or info.restaurant@restaurant.co.ke</p>
-                    </div>
+                        <div class="footer-widget">
+                            <h6>Quick links</h6>
+                                <ul class="footer-links">
+                                    <li><a href="#">home</a></li>
+                                    <li><a href="#">about</a></li>
+                                    <li><a href="#">menu</a></li>
+                                    <li><a href="#">booking</a></li>
+                                    <li><a href="#">blog</a></li>
+                                    <li><a href="#">contact</a></li>
+                                </ul>
+                        </div>
+                                <div class="footer-widget">
+                                    <h6>opening hours</h6>
+                                    <ul class="footer-links">
+                                        <li><a href="#">monday:<span> closed </span></a></li>
+                                        <li><a href="#">tue-fri:<span> 6AM - 9PM </span></a></li>
+                                        <li><a href="#">saturday:<span> 6AM - 10PM </span></a></li>
+                                        <li><a href="#">sunday:<span> 7AM - 12PM </span></a></li>
+                                        <li><a href="#">public holidays:<span> 8AM - 5PM </span></a></li>
+<!--                                        <li><a href="#">contact</a></li>-->
+                                    </ul>
+                                </div>
+                        <div class="footer-widget">
+                            <h6>Quick links</h6>
+                            <ul class="footer-links">
+                                <li><a href="#">home</a></li>
+                                <li><a href="#">about</a></li>
+                                <li><a href="#">menu</a></li>
+                                <li><a href="#">booking</a></li>
+                                <li><a href="#">blog</a></li>
+                                <li><a href="#">contact</a></li>
+                            </ul>
+                        </div>
                 </div>
             </div>
         </section>
@@ -752,9 +828,5 @@
                 }
         });
     </script>
-
-
-
-
 </body>
 </html>
