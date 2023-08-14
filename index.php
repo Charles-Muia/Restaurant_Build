@@ -583,36 +583,40 @@
                                     <ul class="footer-links">
                                         <li><a href="#">monday:<span> closed </span></a></li>
                                         <li><a href="#">tue-fri:<span> 6AM - 9PM </span></a></li>
-                                        <li><a href="#">saturday:<span> 6AM - 10PM </span></a></li>
-                                        <li><a href="#">sunday:<span> 7AM - 12PM </span></a></li>
+                                        <li><a href="#">sat:<span> 6AM - 10PM </span></a></li>
+                                        <li><a href="#">sun:<span> 7AM - 12PM </span></a></li>
                                         <li><a href="#">public holidays:<span> 8AM - 5PM </span></a></li>
 <!--                                        <li><a href="#">contact</a></li>-->
                                     </ul>
                                 </div>
-                        <div class="footer-widget">
-                            <h6>Quick links</h6>
-                            <ul class="footer-links">
-                                <li><a href="#">home</a></li>
-                                <li><a href="#">about</a></li>
-                                <li><a href="#">menu</a></li>
-                                <li><a href="#">booking</a></li>
-                                <li><a href="#">blog</a></li>
-                                <li><a href="#">contact</a></li>
-                            </ul>
-                        </div>
+<!--                        <div class="footer-widget">-->
+<!--                            <h6>Quick links</h6>-->
+<!--                            <ul class="footer-links">-->
+<!--                                <li><a href="#">home</a></li>-->
+<!--                                <li><a href="#">about</a></li>-->
+<!--                                <li><a href="#">menu</a></li>-->
+<!--                                <li><a href="#">booking</a></li>-->
+<!--                                <li><a href="#">blog</a></li>-->
+<!--                                <li><a href="#">contact</a></li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
                 </div>
+                        <div class="copy-right-wrapper">
+                            <p>Copyright &copy; 2023 . BwK Restaurant . Designed by <a href="#"> Charles Muia </a></p>
+
+                        </div>
             </div>
         </section>
 
 <!----===COPY RIGHT FOOTER SECTION------------------------------------------------------------------------------------->
 
-        <footer>
-            <div class="container">
-                <p>
-                    Copyright &copy; 2023 . BwK Restaurant . Designed by <a href="#"> Charles Muia </a>
-                </p>
-            </div>
-        </footer>
+<!--        <footer>-->
+<!--            <div class="container">-->
+<!--                <p>-->
+<!--                    Copyright &copy; 2023 . BwK Restaurant . Designed by <a href="#"> Charles Muia </a>-->
+<!--                </p>-->
+<!--            </div>-->
+<!--        </footer>-->
 
 <!----===JS QUERY SECTION---------------------------------------------------------------------------------------------->
 
