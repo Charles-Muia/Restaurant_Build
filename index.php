@@ -48,6 +48,7 @@
 
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">-->
 
 <!----===Use Swiper from CDN------------------------------------------------------------------------------------------->
 
@@ -815,7 +816,7 @@
 
      </script>
 
-<!----===JS COUNTER SECTION CSS---------------------------------------------------------------------------------------->
+<!----===JS COUNTER SECTION-------------------------------------------------------------------------------------------->
 
     <script>
         const countersE1 = document.querySelectorAll('.num');
@@ -837,5 +838,16 @@
                 }
         });
     </script>
+
+<!----===JS PRELOADER-------------------------------------------------------------------------------------------------->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+        setTimeout(function (){
+            $('.Loader-part').fadeToggle();
+        }, 1500);
+    </script>
+
 </body>
 </html>

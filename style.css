@@ -57,7 +57,7 @@
     .Loader-part {
         position: fixed;
         z-index: 999999;
-        background: var(--bg-color2);
+        background: var(--text-color);
         width: 100%;
         height: 100%;
     }
@@ -75,6 +75,34 @@
     .Loader:before, .Loader:after {
         content: '';
         border: 1rem solid #ff5733;
+        border-radius: 50%;
+        width: inherit;
+        height: inherit;
+        position: absolute;
+        top: 0;
+        left: 0;
+        animation: Loader 2s linear infinite;
+        opacity: 0;
+    }
+
+    .Loader:before {
+        animation-delay: .10s;
+    }
+
+    @keyframes Loader {
+        0% {
+            transform: scale(0);
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 1;
+        }
+
+        100% {
+            transform: scale(1);
+            opacity: 0;
+        }
     }
 
 /*===HEADER CSS-------------------------------------------------------------------------------------------------------*/
