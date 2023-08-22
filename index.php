@@ -79,7 +79,7 @@
                             <li><a href="#about">about</a></li>
                             <li><a href="#menu-sec">menu</a></li>
                             <li><a href="#booking-section">booking</a></li>
-                            <li><a href="#">blog</a></li>
+                            <li><a href="#hero">blog</a></li>
                             <li><a href="#">contact</a></li>
                         </nav>
                                 <div class="btn">
@@ -91,7 +91,7 @@
 
 <!----===HERO SECTION-------------------------------------------------------------------------------------------------->
 
-        <section class="hero-sec">
+        <section class="hero-sec" id="about">
             <div class="container">
                 <div class="hero-sec-content">
                     <img src="Gallery/Resized_lg_3.png" alt="">
@@ -103,7 +103,7 @@
 
 <!----===OFFERS SECTION-------------------------------------------------------------------------------------------------->
 
-        <aside class="sp-offers" id="about">
+        <aside class="sp-offers" id="hero">
             <div class="container">
                 <div class="sp-content">
                     <div class="left-side-content">
@@ -588,9 +588,9 @@
                                     <h6> Quick links </h6>
                                     <ul class="footer-links-list">
                                         <li><a href="#">home</a></li>
-                                        <li><a href="#">about</a></li>
+                                        <li><a href="#about">about</a></li>
                                         <li><a href="#">menu</a></li>
-                                        <li><a href="#">booking</a></li>
+                                        <li><a href="#booking-section">booking</a></li>
                                         <li><a href="#">blog</a></li>
                                         <li><a href="#">contact</a></li>
                                     </ul>
